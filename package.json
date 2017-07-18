@@ -11,7 +11,7 @@
   "scripts": {
     "coveralls": "npm run cover && coveralls <coverage/lcov.info",
     "test": "peasant test",
-    "ci": "peasant -s lint test build",
+    "ci": "peasant -s build",
     "prepublish": "npm run ci",
     "cover": "peasant cover",
     "peasant": "peasant",
