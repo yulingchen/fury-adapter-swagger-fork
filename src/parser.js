@@ -1166,7 +1166,7 @@ export default class Parser {
     }
 
     if (parameter.description) {
-      member.description = parameter.description;
+      member.value.description = parameter.description;
 
       if (this.generateSourceMap) {
         this.createSourceMap(member.meta.get('description'), path.concat(['description']));
